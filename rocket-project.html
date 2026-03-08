@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UNIQ STAR | Rocket Project Template</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">UNIQ STAR</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="project.html">PROJECT</a></li>
+          <li><a class="active" href="rocket-project.html">ROCKET</a></li>
+          <li><a href="team.html">TEAM</a></li>
+          <li><a href="media.html">MEDIA</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <div class="panel">
+        <span class="kicker">ROCKET PROJECT TEMPLATE</span>
+        <h1>System Architecture + Timeline</h1>
+        <p class="muted">팀 내부 프로젝트 문서화를 위해 바로 복제 가능한 상세 템플릿입니다.</p>
+      </div>
+
+      <section class="section" style="padding-bottom:8px;">
+        <h2>System Architecture</h2>
+        <div class="grid grid-3">
+          <article class="card">
+            <h3>Propulsion Stack</h3>
+            <p class="muted">연료 그레인, 산화제 공급, 노즐 열관리, 점화 시퀀스.</p>
+          </article>
+          <article class="card">
+            <h3>Avionics Stack</h3>
+            <p class="muted">비행컴퓨터, 전원관리, 센서 융합, 분리/회수 제어 로직.</p>
+          </article>
+          <article class="card">
+            <h3>Ground Segment</h3>
+            <p class="muted">지상국 GUI, RF 링크, 발사 체크리스트 자동화, 데이터 저장소.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" style="padding-top:8px;">
+        <h2>Mission Timeline</h2>
+        <div class="card timeline">
+          <div class="timeline-item">
+            <h3>PDR - Preliminary Design Review</h3>
+            <p class="meta">Week 1-2</p>
+            <p class="muted">임무 요구사항 확정, 위험도 분석, 예산 배분.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>CDR - Critical Design Review</h3>
+            <p class="meta">Week 3-5</p>
+            <p class="muted">서브시스템 인터페이스 고정, 제작 도면 승인.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>Integration & Test</h3>
+            <p class="meta">Week 6-9</p>
+            <p class="muted">하드웨어 통합, HIL/지상시험, 실패 모드 검증.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>Launch Campaign</h3>
+            <p class="meta">Week 10-12</p>
+            <p class="muted">사전 점검, 발사 운용, 회수 및 데이터 분석.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">Rocket Project Template · UNIQ STAR</div>
+  </footer>
+</body>
+</html>

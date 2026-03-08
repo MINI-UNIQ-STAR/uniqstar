@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UNIQ STAR | PROJECT</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">UNIQ STAR</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a class="active" href="project.html">PROJECT</a></li>
+          <li><a href="rocket-project.html">ROCKET</a></li>
+          <li><a href="team.html">TEAM</a></li>
+          <li><a href="media.html">MEDIA</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <div class="panel">
+        <span class="kicker">NASA-INSPIRED MISSION BOARD</span>
+        <h1>PROJECT Status Deck</h1>
+        <p class="muted">각 프로젝트를 미션 중심으로 운영하는 UNIQ STAR의 통합 상황판입니다.</p>
+      </div>
+
+      <div class="grid grid-3" style="margin-top:16px;">
+        <article class="card">
+          <p class="meta">M-01 / Propulsion</p>
+          <h3>Hybrid Rocket Testbed</h3>
+          <p class="muted">하이브리드 엔진 연소 안정성 확보 및 반복 점화 실험.</p>
+          <div class="tag-list"><span class="tag">Fuel Grain</span><span class="tag">Injector</span><span class="tag">Combustion</span></div>
+        </article>
+
+        <article class="card">
+          <p class="meta">M-02 / Avionics</p>
+          <h3>Flight Computer V3</h3>
+          <p class="muted">IMU 융합, 실시간 데이터 로깅, 비상 분리 로직 탑재.</p>
+          <div class="tag-list"><span class="tag">STM32</span><span class="tag">Telemetry</span><span class="tag">FDIR</span></div>
+        </article>
+
+        <article class="card">
+          <p class="meta">M-03 / Ground Ops</p>
+          <h3>Mobile Ground Station</h3>
+          <p class="muted">추적 안테나 자동 지향과 발사장 원격 운용 GUI 개발.</p>
+          <div class="tag-list"><span class="tag">Tracking</span><span class="tag">RF</span><span class="tag">Mission UI</span></div>
+        </article>
+      </div>
+
+      <section class="section" style="padding-bottom:10px;">
+        <h2>Mission Objectives</h2>
+        <div class="grid grid-2">
+          <article class="card">
+            <h3>2026 상반기</h3>
+            <p class="muted">엔진 지상 연소시험 10회, 비행 SW HIL 검증, 구조체 하중시험 완료.</p>
+          </article>
+          <article class="card">
+            <h3>2026 하반기</h3>
+            <p class="muted">통합 발사 캠페인 2회, 데이터 수집 자동화, 차세대 프로젝트 요구사항 정리.</p>
+          </article>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">PROJECT Deck · UNIQ STAR</div>
+  </footer>
+</body>
+</html>

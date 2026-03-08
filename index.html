@@ -1,5 +1,414 @@
-<!DOCTYPE html> <html lang="ko"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>RAQIA Aerospace Club</title> <style> *{ margin:0; padding:0; box-sizing:border-box; font-family:Segoe UI, Arial, sans-serif; } body{ background:#0b0f1a; color:white; line-height:1.6; } a{ text-decoration:none; color:white; } .container{ width:90%; max-width:1200px; margin:auto; } header{ background:linear-gradient(180deg,#111a2e,#0b0f1a); padding:20px 0; position:sticky; top:0; z-index:100; } nav{ display:flex; justify-content:space-between; align-items:center; } .logo{ font-size:24px; font-weight:700; letter-spacing:2px; } .nav-links{ display:flex; gap:25px; } .nav-links a:hover{ color:#4da3ff; } .hero{ height:70vh; display:flex; align-items:center; justify-content:center; text-align:center; background: linear-gradient(rgba(11,15,26,0.7),rgba(11,15,26,1)), url("https://images.unsplash.com/photo-1446776811953-b23d57bd21aa"); background-size:cover; background-position:center; } .hero h1{ font-size:56px; margin-bottom:20px; } .hero p{ font-size:20px; color:#c8d4ff; } section{ padding:80px 0; } .section-title{ font-size:32px; margin-bottom:40px; text-align:center; } .about{ display:grid; grid-template-columns:1fr 1fr; gap:40px; align-items:center; } .about img{ width:100%; border-radius:10px; } .activities{ display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:25px; } .card{ background:#141c2e; padding:25px; border-radius:10px; transition:0.3s; } .card:hover{ transform:translateY(-5px); background:#1b2740; } .card h3{ margin-bottom:10px; } .projects{ display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:30px; } .project-card{ background:#141c2e; border-radius:10px; overflow:hidden; } .project-card img{ width:100%; height:200px; object-fit:cover; } .project-content{ padding:20px; } .join{ text-align:center; } .join button{ margin-top:20px; padding:12px 28px; border:none; background:#4da3ff; color:white; font-size:16px; border-radius:6px; cursor:pointer; } .join button:hover{ background:#2d7dd2; } footer{ background:#060911; text-align:center; padding:25px 0; font-size:14px; color:#888; } @media(max-width:900px){ .about{ grid-template-columns:1fr; } .hero h1{ font-size:40px; } } </style> </head> <body> <header> <div class="container"> <nav> <div class="logo">RAQIA</div> <div class="nav-links"> <a href="#about">About</a> <a href="#activities">Activities</a> <a href="#projects">Projects</a> <a href="#join">Join</a> </div> </nav> </div> </header> <section class="hero"> <div> <h1>RAQIA Aerospace Club</h1> <p>경상국립대학교 우주항공동아리</p> <p>Rocket · Satellite · Aerospace Engineering</p> </div> </section> <section id="about"> <div class="container"> <h2 class="section-title">About RAQIA</h2> <div class="about"> <div> <p> RAQIA는 경상국립대학교 학생들이 운영하는 우주항공 동아리입니다. 로켓 공학, 항공역학, 위성 시스템 등 다양한 우주항공 기술을 직접 설계하고 제작하며 연구합니다. </p> <br> <p> 동아리 구성원들은 실제 공학 프로젝트를 통해 이론을 넘어 실제 시스템 설계 경험을 쌓고 있습니다. </p> </div> <img src="https://images.unsplash.com/photo-1457369804613-52c61a468e7d"> </div> </div> </section> <section id="activities"> <div class="container"> <h2 class="section-title">Activities</h2> <div class="activities"> <div class="card"> <h3>Model Rocket</h3> <p> 모형 로켓 설계, 제작 및 발사 실험을 수행합니다. 추력, 안정성, 비행 데이터 분석을 포함합니다. </p> </div> <div class="card"> <h3>Avionics</h3> <p> 비행 컴퓨터, 센서 시스템, 데이터 로깅 장치를 개발합니다. </p> </div> <div class="card"> <h3>Aerospace Study</h3> <p> 항공역학, 추진기관, 우주 시스템 공학 스터디를 진행합니다. </p> </div> <div class="card"> <h3>Competition</h3> <p> 전국 로켓 대회 및 항공우주 관련 공모전에 참가합니다. </p> </div> </div> </div> </section> <section id="projects"> <div class="container"> <h2 class="section-title">Projects</h2> <div class="projects"> <div class="project-card"> <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa"> <div class="project-content"> <h3>Hybrid Rocket</h3> <p>하이브리드 추진 방식 로켓 개발 프로젝트</p> </div> </div> <div class="project-card"> <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa"> <div class="project-content"> <h3>Flight Computer</h3> <p>로켓 비행 데이터를 수집하는 항공전자 시스템</p> </div> </div> <div class="project-card"> <img src="https://images.unsplash.com/photo-1445905595283-21f8ae8a33d2"> <div class="project-content"> <h3>Telemetry System</h3> <p>실시간 비행 데이터 전송 시스템 개발</p> </div> </div> </div> </div> </section> <section id="join"> <div class="container"> <h2 class="section-title">Join RAQIA</h2> <div class="join"> <p> 우주항공 기술을 직접 만들어보고 싶은 학생이라면 누구나 환영합니다. </p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<button>지원하기</button>
+<title>UNIQ STAR</title>
 
-</div> </div> </section> <footer> <p>© 2026 RAQIA Aerospace Club · Gyeongsang National University</p> </footer> </body> </html>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+--space-black:#0B0F1A;
+--deep-navy:#111827;
+--orbital-blue:#1F6FEB;
+--text-light:#E6EDF3;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background:var(--space-black);
+color:var(--text-light);
+font-family:Inter;
+line-height:1.6;
+}
+
+h1,h2,h3{
+font-family:"Space Grotesk";
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+nav{
+background:rgba(0,0,0,0.6);
+position:fixed;
+width:100%;
+top:0;
+z-index:100;
+backdrop-filter:blur(6px);
+}
+
+nav .container{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 0;
+}
+
+nav ul{
+display:flex;
+gap:22px;
+list-style:none;
+}
+
+nav a{
+text-decoration:none;
+color:var(--text-light);
+font-weight:500;
+}
+
+.hero{
+height:90vh;
+background:url("images/rocket.jpg") center/cover no-repeat;
+display:flex;
+align-items:center;
+text-align:center;
+}
+
+.hero-content{
+width:100%;
+}
+
+.hero h1{
+font-size:64px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:22px;
+margin-bottom:30px;
+}
+
+.button{
+padding:14px 28px;
+border-radius:6px;
+text-decoration:none;
+margin:8px;
+display:inline-block;
+}
+
+.primary{
+background:var(--orbital-blue);
+color:white;
+}
+
+.secondary{
+border:1px solid var(--orbital-blue);
+color:var(--orbital-blue);
+}
+
+.section{
+padding:90px 0;
+}
+
+.section-title{
+font-size:36px;
+margin-bottom:40px;
+text-align:center;
+}
+
+.grid{
+display:grid;
+gap:28px;
+}
+
+.grid-4{
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+}
+
+.grid-3{
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+}
+
+.card{
+background:var(--deep-navy);
+padding:28px;
+border-radius:10px;
+transition:0.25s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card img{
+width:100%;
+border-radius:6px;
+margin-bottom:14px;
+}
+
+.stats{
+display:flex;
+justify-content:center;
+gap:70px;
+text-align:center;
+}
+
+.stat h3{
+font-size:42px;
+color:var(--orbital-blue);
+}
+
+.sponsors{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:40px;
+}
+
+footer{
+background:#070A12;
+padding:40px;
+text-align:center;
+color:#9BA4AE;
+}
+
+@media(max-width:700px){
+
+.hero h1{
+font-size:42px;
+}
+
+.stats{
+flex-direction:column;
+gap:30px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="container">
+
+<h3>UNIQ STAR</h3>
+
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Projects</a></li>
+<li><a href="#">Team</a></li>
+<li><a href="#">Media</a></li>
+<li><a href="#">News</a></li>
+<li><a href="#">Sponsors</a></li>
+<li><a href="#">Join</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+
+</div>
+</nav>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>UNIQ STAR</h1>
+
+<p>Student Space Exploration Organization</p>
+
+<a class="button primary">Our Projects</a>
+<a class="button secondary">Join Us</a>
+<a class="button secondary">Sponsor Us</a>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="container">
+
+<h2 class="section-title">What We Do</h2>
+
+<div class="grid grid-4">
+
+<div class="card">
+<h3>Rocket Systems</h3>
+<p>Experimental rocket development and flight testing.</p>
+</div>
+
+<div class="card">
+<h3>Near Space Balloon</h3>
+<p>High altitude balloon missions and atmospheric research.</p>
+</div>
+
+<div class="card">
+<h3>Aerospace Software</h3>
+<p>Flight software, telemetry, and mission control systems.</p>
+</div>
+
+<div class="card">
+<h3>Ground Systems</h3>
+<p>Tracking infrastructure and ground station development.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="container">
+
+<h2 class="section-title">Project Highlights</h2>
+
+<div class="grid grid-3">
+
+<div class="card">
+
+<img src="images/rocket_project.jpg">
+
+<h3>Experimental Rocket Platform</h3>
+
+<p>Development of a modular student rocket system.</p>
+
+<a class="button primary">View Project</a>
+
+</div>
+
+<div class="card">
+
+<img src="images/balloon.jpg">
+
+<h3>Near Space Balloon</h3>
+
+<p>High altitude research payload missions.</p>
+
+<a class="button primary">View Project</a>
+
+</div>
+
+<div class="card">
+
+<img src="images/groundstation.jpg">
+
+<h3>Ground Tracking System</h3>
+
+<p>Autonomous antenna tracker and telemetry station.</p>
+
+<a class="button primary">View Project</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="container">
+
+<h2 class="section-title">Achievements</h2>
+
+<div class="stats">
+
+<div class="stat">
+<h3>12</h3>
+<p>Projects</p>
+</div>
+
+<div class="stat">
+<h3>40+</h3>
+<p>Members</p>
+</div>
+
+<div class="stat">
+<h3>5</h3>
+<p>Launch Campaigns</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="container">
+
+<h2 class="section-title">Latest News</h2>
+
+<div class="grid grid-3">
+
+<div class="card">
+<h3>Rocket Static Test</h3>
+<p>UNIQ STAR successfully conducted propulsion testing.</p>
+</div>
+
+<div class="card">
+<h3>Balloon Launch Campaign</h3>
+<p>High altitude balloon mission completed.</p>
+</div>
+
+<div class="card">
+<h3>New Member Recruitment</h3>
+<p>Applications for engineering teams now open.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="container">
+
+<h2 class="section-title">Sponsors</h2>
+
+<div class="sponsors">
+
+<img src="images/sponsor1.png" height="50">
+<img src="images/sponsor2.png" height="50">
+<img src="images/sponsor3.png" height="50">
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="container" style="text-align:center">
+
+<h2 class="section-title">Join UNIQ STAR</h2>
+
+<p>We are always looking for passionate engineers and researchers.</p>
+
+<br>
+
+<a class="button primary">Apply Now</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 UNIQ STAR — Student Space Exploration Organization</p>
+
+</footer>
+
+</body>
+</html>
